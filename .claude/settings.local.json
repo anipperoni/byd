@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.byd.com)",
+      "WebSearch",
+      "WebFetch(domain:share.google)"
+    ]
+  }
+}

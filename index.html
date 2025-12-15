@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CarRent - Urban Car Rental</title>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="css/urban-style.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-container">
+      <div class="logo">
+        <a href="index.html"><img src="images/logo.png" alt="CarRent" style="height: 40px;"></a>
+      </div>
+
+      <nav class="main-nav">
+        <ul class="nav-menu">
+          <li class="nav-item has-dropdown">
+            <a href="cars.html" class="nav-link">Models</a>
+            <div class="dropdown-menu">
+              <div class="dropdown-content">
+                <div class="dropdown-category">
+                  <h4>Electric SUV</h4>
+                  <a href="cars.html" class="dropdown-item">
+                    <img src="https://zecar.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fo5m1ex7g%2Fproduction%2F40945d8f96b3b206d7907d60d97515da8eb26455-1280x720.jpg%3Fw%3D2000%26fit%3Dmin&w=1080&q=75" alt="BYD Atto 3">
+                    <span>BYD Atto 3</span>
+                  </a>
+                  <a href="cars.html" class="dropdown-item">
+                    <img src="https://www.autodeal.com.ph/custom/car-model-photo/original/byd-tang-ev-662f320d23473.jpg" alt="BYD Tang">
+                    <span>BYD Tang</span>
+                  </a>
+                  <a href="cars.html" class="dropdown-item">
+                    <img src="https://guangcaiauto.com/wp-content/uploads/2023/12/BYD-Yuan-Plus-2023-appearance-1.jpg" alt="BYD Yuan Plus">
+                    <span>BYD Yuan Plus</span>
+                  </a>
+                </div>
+                <div class="dropdown-category">
+                  <h4>Sedan</h4>
+                  <a href="cars.html" class="dropdown-item">
+                    <img src="https://www.byd.com/material/byd-site/eu/hybrid-cars/seal-6-dmi/xl/byd-seal-6-dmi-technology-02-xl.webp" alt="BYD Seal">
+                    <span>BYD Seal</span>
+                  </a>
+                  <a href="cars.html" class="dropdown-item">
+                    <img src="https://obaidicarsjo.com/wp-content/uploads/2024/04/DSC05203.jpg" alt="BYD Qin Plus">
+                    <span>BYD Qin Plus</span>
+                  </a>
+                </div>
+                <div class="dropdown-category">
+                  <h4>Compact & MPV</h4>
+                  <a href="cars.html" class="dropdown-item">
+                    <img src="https://www.byd.com/material/byd-site/eu/electric-cars/dolphin/xl/Dolphin-exterior-01-xl.jpg" alt="BYD Dolphin">
+                    <span>BYD Dolphin</span>
+                  </a>
+                  <a href="cars.html" class="dropdown-item">
+                    <img src="https://stimg.cardekho.com/images/carexteriorimages/930x620/BYD/E6/8675/1676289700142/front-left-side-47.jpg" alt="BYD E6">
+                    <span>BYD E6</span>
+                  </a>
+                </div>
+                <a href="cars.html" class="explore-more">Explore All Models</a>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item has-dropdown">
+            <a href="about.html" class="nav-link">About</a>
+            <div class="dropdown-menu dropdown-simple">
+              <a href="about.html" class="dropdown-item">Our Story</a>
+              <a href="about.html" class="dropdown-item">Why Choose Us</a>
+              <a href="blog.html" class="dropdown-item">News & Blog</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button class="search-btn" aria-label="Search">
+          <span class="icon-search"></span>
+        </button>
+        <a href="contact.html" class="btn-locate">Find Location</a>
+        <button class="mobile-menu-toggle" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu">
+    <div class="mobile-menu-header">
+      <div class="logo"><img src="images/logo.png" alt="CarRent" style="height: 30px;"></div>
+      <button class="mobile-menu-close">&times;</button>
+    </div>
+    <nav class="mobile-nav">
+      <ul>
+        <li><a href="cars.html">Models</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- Hero Carousel -->
+  <section class="hero-section">
+    <div class="hero-carousel owl-carousel">
+      <div class="hero-slide" style="background-image: url('https://zecar.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fo5m1ex7g%2Fproduction%2F40945d8f96b3b206d7907d60d97515da8eb26455-1280x720.jpg%3Fw%3D2000%26fit%3Dmin&w=1080&q=75')">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <span class="hero-label">Electric SUV</span>
+          <h1 class="hero-title">ATTO 3 </h1>
+          <p class="hero-subtitle">A popular electric compact SUV, offering modern design and advanced features.</p>
+          <a href="cars.html" class="btn-primary">Learn More</a>
+          <br>
+          <a href="contact.html" style="color: #fff; text-decoration: underline; background: none; margin-top: 15px; display: inline-block;">Schedule a Test Drive</a>
+        </div>
+      </div>
+      <div class="hero-slide" style="background-image: url('https://www.byd.com/material/byd-site/eu/hybrid-cars/seal-6-dmi/xl/byd-seal-6-dmi-technology-02-xl.webp')">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <span class="hero-label">Premium Sedan</span>
+          <h1 class="hero-title">BYD Seal</h1>
+          <p class="hero-subtitle">A premium sedan, fully electric, built to compete with sedans from established global brands.</p>
+          <a href="cars.html" class="btn-primary">Learn More</a>
+          <br>
+          <a href="contact.html" style="color: #fff; text-decoration: underline; background: none; margin-top: 15px; display: inline-block;">Schedule a Test Drive</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-controls">
+      <button class="hero-prev"><span class="icon-arrow-left"></span></button>
+      <button class="hero-next"><span class="icon-arrow-right"></span></button>
+    </div>
+  </section>
+
+  <!-- Technology Section -->
+  <section class="section-technology" style="background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%); padding: 80px 0; color: #fff;">
+    <div class="container">
+      <!-- Blade Battery Feature -->
+      <div style="display: flex; flex-wrap: wrap; align-items: center; margin-bottom: 80px; gap: 40px;">
+        <div style="flex: 1; min-width: 300px;">
+          <img src="https://www.byd.com/material/byd-site/eu/technology/BYD-Blade-Battery-pc.jpg" alt="BYD Blade Battery" style="width: 100%; border-radius: 8px;">
+        </div>
+        <div style="flex: 1; min-width: 300px;">
+          <h2 style="font-size: 2rem; font-weight: 700; margin-bottom: 20px;">One Of The World's Safest Batteries</h2>
+          <p style="font-size: 1rem; line-height: 1.8; color: #ccc;">Key distinct advantages of BYD's Blade Battery include a high starting temperature for exothermic reactions, slow heat release and low heat generation. Also, the space utilisation of the battery pack is increased by over 50% compared to conventional lithium iron phosphate block batteries true innovation and an industry first.</p>
+        </div>
+      </div>
+
+      <!-- e-Platform Feature -->
+      <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 40px;">
+        <div style="flex: 1; min-width: 300px;">
+          <h2 style="font-size: 2rem; font-weight: 700; margin-bottom: 20px;">e-Platform 3.0</h2>
+          <p style="font-size: 1rem; line-height: 1.8; color: #ccc;">This platform aims to improve the performance of electric vehicles in terms of safety and range at low temperatures and to improve driving experiences, with the aim of building new smart EVs that are more efficient and safer.</p>
+        </div>
+        <div style="flex: 1; min-width: 300px;">
+          <img src="https://www.byd.com/content/dam/byd-site/mea/home/nav-group/BYD-e-platform-3-nav2.png" alt="e-Platform 3.0" style="width: 100%; border-radius: 8px;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Models Gallery -->
+  <section class="section-models" style="background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)), url('https://lh3.googleusercontent.com/p/AF1QipPRSQx1bnYyptONZGGz3HNfZGy13puKtXJ9Os7q=s680-w680-h510') center/cover fixed; color: #fff;">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Models</h2>
+        <p class="section-subtitle">Explore our diverse range of vehicles</p>
+      </div>
+
+      <div class="models-gallery">
+        <!-- BYD Atto 3 -->
+        <div class="gallery-item">
+          <div class="gallery-image">
+            <img src="https://zecar.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fo5m1ex7g%2Fproduction%2F40945d8f96b3b206d7907d60d97515da8eb26455-1280x720.jpg%3Fw%3D2000%26fit%3Dmin&w=1080&q=75" alt="BYD Atto 3">
+            <div class="gallery-overlay">
+              <a href="cars.html" class="btn-gallery">Explore</a>
+            </div>
+          </div>
+          <div class="gallery-info">
+            <span class="gallery-type">Fully Electric SUV</span>
+            <h3 class="gallery-name">BYD Atto 3</h3>
+            <p class="gallery-desc">A popular electric compact SUV, offering modern design and advanced features.</p>
+            <span class="gallery-powertrain"><strong>Powertrain:</strong> Fully Electric</span>
+          </div>
+        </div>
+
+        <!-- BYD Tang -->
+        <div class="gallery-item">
+          <div class="gallery-image">
+            <img src="https://www.autodeal.com.ph/custom/car-model-photo/original/byd-tang-ev-662f320d23473.jpg" alt="BYD Tang">
+            <div class="gallery-overlay">
+              <a href="cars.html" class="btn-gallery">Explore</a>
+            </div>
+          </div>
+          <div class="gallery-info">
+            <span class="gallery-type">Electric SUV / PHEV</span>
+            <h3 class="gallery-name">BYD Tang</h3>
+            <p class="gallery-desc">A mid-to-large-size SUV that combines luxury, space, and performance.</p>
+            <span class="gallery-powertrain"><strong>Powertrain:</strong> EV or PHEV</span>
+          </div>
+        </div>
+
+        <!-- BYD Dolphin -->
+        <div class="gallery-item">
+          <div class="gallery-image">
+            <img src="https://www.byd.com/material/byd-site/eu/electric-cars/dolphin/xl/Dolphin-exterior-01-xl.jpg" alt="BYD Dolphin">
+            <div class="gallery-overlay">
+              <a href="cars.html" class="btn-gallery">Explore</a>
+            </div>
+          </div>
+          <div class="gallery-info">
+            <span class="gallery-type">Electric Hatchback</span>
+            <h3 class="gallery-name">BYD Dolphin</h3>
+            <p class="gallery-desc">A compact electric car designed for urban driving, offering affordable pricing and energy efficiency.</p>
+            <span class="gallery-powertrain"><strong>Powertrain:</strong> Fully Electric</span>
+          </div>
+        </div>
+
+        <!-- BYD Seal -->
+        <div class="gallery-item">
+          <div class="gallery-image">
+            <img src="https://www.byd.com/material/byd-site/eu/hybrid-cars/seal-6-dmi/xl/byd-seal-6-dmi-technology-02-xl.webp" alt="BYD Seal">
+            <div class="gallery-overlay">
+              <a href="cars.html" class="btn-gallery">Explore</a>
+            </div>
+          </div>
+          <div class="gallery-info">
+            <span class="gallery-type">Electric Sedan</span>
+            <h3 class="gallery-name">BYD Seal</h3>
+            <p class="gallery-desc">A premium sedan, fully electric, built to compete with sedans from established global brands.</p>
+            <span class="gallery-powertrain"><strong>Powertrain:</strong> Fully Electric</span>
+          </div>
+        </div>
+
+        <!-- BYD Yuan Plus -->
+        <div class="gallery-item">
+          <div class="gallery-image">
+            <img src="https://guangcaiauto.com/wp-content/uploads/2023/12/BYD-Yuan-Plus-2023-appearance-1.jpg" alt="BYD Yuan Plus">
+            <div class="gallery-overlay">
+              <a href="cars.html" class="btn-gallery">Explore</a>
+            </div>
+          </div>
+          <div class="gallery-info">
+            <span class="gallery-type">Electric SUV</span>
+            <h3 class="gallery-name">BYD Yuan Plus</h3>
+            <p class="gallery-desc">A smaller electric SUV, designed for city driving with a focus on practicality and affordability.</p>
+            <span class="gallery-powertrain"><strong>Powertrain:</strong> Fully Electric</span>
+          </div>
+        </div>
+
+        <!-- BYD E6 -->
+        <div class="gallery-item">
+          <div class="gallery-image">
+            <img src="https://stimg.cardekho.com/images/carexteriorimages/930x620/BYD/E6/8675/1676289700142/front-left-side-47.jpg" alt="BYD E6">
+            <div class="gallery-overlay">
+              <a href="cars.html" class="btn-gallery">Explore</a>
+            </div>
+          </div>
+          <div class="gallery-info">
+            <span class="gallery-type">Electric MPV</span>
+            <h3 class="gallery-name">BYD E6</h3>
+            <p class="gallery-desc">Primarily used as a taxi or for large family use, this electric MPV offers a practical solution with space and sustainability.</p>
+            <span class="gallery-powertrain"><strong>Powertrain:</strong> Fully Electric</span>
+          </div>
+        </div>
+
+        <!-- BYD F3 -->
+        <div class="gallery-item">
+          <div class="gallery-image">
+            <img src="https://media.fastestlaps.com/byd-f3.jpg" alt="BYD F3">
+            <div class="gallery-overlay">
+              <a href="cars.html" class="btn-gallery">Explore</a>
+            </div>
+          </div>
+          <div class="gallery-info">
+            <span class="gallery-type">Sedan (Fuel-powered)</span>
+            <h3 class="gallery-name">BYD F3</h3>
+            <p class="gallery-desc">One of BYD's more affordable models, the F3 is a compact sedan with a traditional internal combustion engine.</p>
+            <span class="gallery-powertrain"><strong>Powertrain:</strong> Gasoline</span>
+          </div>
+        </div>
+
+        <!-- BYD S7 -->
+        <div class="gallery-item">
+          <div class="gallery-image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4-fceMOO45zE-WTxG_AvuP0-Ce8UvKdUiow&s" alt="BYD S7">
+            <div class="gallery-overlay">
+              <a href="cars.html" class="btn-gallery">Explore</a>
+            </div>
+          </div>
+          <div class="gallery-info">
+            <span class="gallery-type">SUV</span>
+            <h3 class="gallery-name">BYD S7</h3>
+            <p class="gallery-desc">A larger SUV with a more traditional gas engine, offering more space and power.</p>
+            <span class="gallery-powertrain"><strong>Powertrain:</strong> Gasoline / Hybrid</span>
+          </div>
+        </div>
+
+        <!-- BYD Qin Plus -->
+        <div class="gallery-item">
+          <div class="gallery-image">
+            <img src="https://obaidicarsjo.com/wp-content/uploads/2024/04/DSC05203.jpg" alt="BYD Qin Plus">
+            <div class="gallery-overlay">
+              <a href="cars.html" class="btn-gallery">Explore</a>
+            </div>
+          </div>
+          <div class="gallery-info">
+            <span class="gallery-type">Plug-in Hybrid Sedan</span>
+            <h3 class="gallery-name">BYD Qin Plus</h3>
+            <p class="gallery-desc">A compact hybrid sedan, designed to offer a balance between fuel economy and driving performance.</p>
+            <span class="gallery-powertrain"><strong>Powertrain:</strong> Plug-in Hybrid</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Charging Locations Section -->
+  <section class="section-charging">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Charging Locations</h2>
+        <p class="section-subtitle">Power up your journey at our convenient charging stations</p>
+      </div>
+
+      <div class="charging-content">
+        <div class="charging-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d248849.886539092!2d79.46825829453172!3d13.047985943774095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sEV%20charging%20stations!5e0!3m2!1sen!2sin!4v1702656000000!5m2!1sen!2sin"
+            width="100%"
+            height="450"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+
+        <div class="charging-info">
+          <div class="charging-stats">
+            <div class="charging-stat">
+              <span class="stat-number">150+</span>
+              <span class="stat-label">Charging Stations</span>
+            </div>
+            <div class="charging-stat">
+              <span class="stat-number">24/7</span>
+              <span class="stat-label">Availability</span>
+            </div>
+            <div class="charging-stat">
+              <span class="stat-number">Fast</span>
+              <span class="stat-label">DC Charging</span>
+            </div>
+          </div>
+
+          <div class="charging-features">
+            <div class="charging-feature">
+              <span class="feature-icon">
+                <span class="icon-flash"></span>
+              </span>
+              <div class="feature-content">
+                <h4>Fast Charging</h4>
+                <p>Up to 150kW DC fast charging available at select locations</p>
+              </div>
+            </div>
+            <div class="charging-feature">
+              <span class="feature-icon">
+                <span class="icon-location"></span>
+              </span>
+              <div class="feature-content">
+                <h4>Convenient Locations</h4>
+                <p>Strategically placed at malls, highways, and city centers</p>
+              </div>
+            </div>
+            <div class="charging-feature">
+              <span class="feature-icon">
+                <span class="icon-credit-card"></span>
+              </span>
+              <div class="feature-content">
+                <h4>Easy Payment</h4>
+                <p>Pay seamlessly via app or contactless payment methods</p>
+              </div>
+            </div>
+          </div>
+
+          <a href="contact.html" class="btn-primary">Find Nearest Station</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section class="section-newsletter">
+    <div class="container">
+      <div class="newsletter-content">
+        <h2>Stay Updated</h2>
+        <p>Subscribe to our newsletter for exclusive offers and updates.</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Enter your email address" required>
+          <button type="submit" class="btn-primary">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Models</h4>
+          <ul>
+            <li><a href="cars.html">Range Rover S64</a></li>
+            <li><a href="cars.html">Mercedes GLS</a></li>
+            <li><a href="cars.html">BMW 7 Series</a></li>
+            <li><a href="cars.html">Mercedes S-Class</a></li>
+            <li><a href="cars.html">View All</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="blog.html">News & Blog</a></li>
+            <li><a href="contact.html">Careers</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html">Vehicle Repair</a></li>
+            <li><a href="services.html">Car Accessories</a></li>
+            <li><a href="services.html">Chauffeur Service</a></li>
+            <li><a href="services.html">Insurance</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="contact.html">Help Center</a></li>
+            <li><a href="contact.html">FAQs</a></li>
+            <li><a href="contact.html">Terms of Service</a></li>
+            <li><a href="contact.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-social">
+          <a href="#" aria-label="Facebook"><span class="icon-facebook"></span></a>
+          <a href="#" aria-label="Twitter"><span class="icon-twitter"></span></a>
+          <a href="#" aria-label="Instagram"><span class="icon-instagram"></span></a>
+          <a href="#" aria-label="LinkedIn"><span class="icon-linkedin"></span></a>
+          <a href="#" aria-label="YouTube"><span class="icon-youtube"></span></a>
+        </div>
+        <p class="copyright">
+          &copy; <script>document.write(new Date().getFullYear());</script> CarRent. All rights reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+
+  <script>
+    $(document).ready(function() {
+      // Initialize datepicker
+      $('.datepicker').datepicker({
+        autoclose: true,
+        todayHighlight: true,
+        format: 'mm/dd/yyyy'
+      });
+
+      // Hero Carousel
+      $('.hero-carousel').owlCarousel({
+        items: 1,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 6000,
+        autoplayHoverPause: true,
+        nav: false,
+        dots: false,
+        animateOut: 'fadeOut',
+        animateIn: 'fadeIn'
+      });
+
+      // Hero carousel controls
+      $('.hero-prev').click(function() {
+        $('.hero-carousel').trigger('prev.owl.carousel');
+      });
+      $('.hero-next').click(function() {
+        $('.hero-carousel').trigger('next.owl.carousel');
+      });
+
+      // Mobile menu toggle
+      $('.mobile-menu-toggle').click(function() {
+        $('.mobile-menu').addClass('active');
+        $('body').addClass('menu-open');
+      });
+
+      $('.mobile-menu-close').click(function() {
+        $('.mobile-menu').removeClass('active');
+        $('body').removeClass('menu-open');
+      });
+
+      // Header scroll effect
+      $(window).scroll(function() {
+        if ($(this).scrollTop() > 50) {
+          $('.site-header').addClass('scrolled');
+        } else {
+          $('.site-header').removeClass('scrolled');
+        }
+      });
+
+      // Dropdown hover effect for desktop
+      if ($(window).width() > 991) {
+        $('.nav-item.has-dropdown').hover(
+          function() {
+            $(this).find('.dropdown-menu').stop(true, true).fadeIn(200);
+          },
+          function() {
+            $(this).find('.dropdown-menu').stop(true, true).fadeOut(200);
+          }
+        );
+      }
+    });
+  </script>
+</body>
+</html>
